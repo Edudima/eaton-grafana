@@ -6,7 +6,7 @@ Os dejo por aquí los archivos de configuración necesarios para monitorizar vue
 
 Con este panel tendréis información relativa a los watts de salida, tiempo de backup en base a vuestras baterías y elementos conectados a ellas, estado de las baterías, voltaje y frecuencias de entrada y salida.
 
-#####1. Descarga MIBS
+##### 1. Descarga MIBS
 
 `usr/share/snmp/mibs`
 
@@ -23,10 +23,10 @@ Aseguraos tambien que vuestro archivo SNMP.conf se encuentra de la siguiente man
     #
     # mibdirs /usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf
 
-#####2. Editar archivo .conf
+##### 2. Editar archivo .conf
 
 Aseguraos de editar vuestro archivo .conf con los datos relativos a vuestro InfluxDB y vuestro SAI.
 
-#####3. Importar el dashboard en Grafana
+##### 3. Importar el dashboard en Grafana
 
 Tenéis también el JSON en este repositorio, el cual podéis utilizar al importar el dashboard en vuestro Grafana.
